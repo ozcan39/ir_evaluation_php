@@ -1,0 +1,23 @@
+{
+  "name": "ozcan39/ir_evaluation_php",
+  "type": "library",
+  "description": "This library was created in order to evaluate the effectiveness of any kind of algorithm used in IR systems and analyze how well they perform.",
+  "keywords": ["information","retrieval","effectiveness","evaluation"],
+  "license": "LGPL-2.1-only",
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.6.0"
+  },
+  "authors": [
+    {
+      "name": "Veli Özcan Budak",
+      "email": "veliozcanbudak@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "ir_evaluation\\": "src/"
+    }
+  }
+}
